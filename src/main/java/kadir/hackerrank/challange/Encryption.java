@@ -52,12 +52,4 @@ public class Encryption {
         }
      return encyptedMsg;
     }
-    
-    public static void main(String args[]) {
-    	
-    	
-    	
-    	
-    }
-    
 }
