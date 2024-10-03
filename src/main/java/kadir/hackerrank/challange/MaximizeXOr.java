@@ -1,9 +1,6 @@
 package kadir.hackerrank.challange;
 
-import static java.util.stream.Collectors.joining;
-
 public class MaximizeXOr {
-
     /*
      * Complete the 'maximizingXor' function below.
      *
@@ -12,7 +9,6 @@ public class MaximizeXOr {
      *  1. INTEGER l
      *  2. INTEGER r
      */
-
     public static int xor( int i, int j){
         return i ^ j;
     }
@@ -28,9 +24,7 @@ public class MaximizeXOr {
                     max = xor;
                 }
             }
-
         }
         return max;
     }
-
 }
