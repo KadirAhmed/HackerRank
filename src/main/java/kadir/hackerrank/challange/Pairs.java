@@ -1,6 +1,16 @@
 package kadir.hackerrank.challange;
 
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
 import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 
 public class Pairs {
 
@@ -23,6 +33,7 @@ public class Pairs {
         if (index < length - 1) {
             System.arraycopy(array, index + 1, result, index, length - index - 1);
         }
+
         return (Integer[]) result;
     }
     public static int pairs(int k, List<Integer> arr) {
