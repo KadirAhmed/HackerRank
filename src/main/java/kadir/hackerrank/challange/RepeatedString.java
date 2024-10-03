@@ -2,7 +2,6 @@ package kadir.hackerrank.challange;
 
 
 public class RepeatedString {
-
     /*
      * Complete the 'repeatedString' function below.
      *
