@@ -12,7 +12,6 @@ class AndProduct {
      *  1. LONG_INTEGER a
      *  2. LONG_INTEGER b
      */
-
     public static long andProduct(long a, long b) {
         // Write your code here
         long and =a;
