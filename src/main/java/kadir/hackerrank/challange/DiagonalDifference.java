@@ -4,9 +4,6 @@ package kadir.hackerrank.challange;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.*;
-
-
 public class DiagonalDifference {
 
     /*
@@ -35,7 +32,6 @@ public class DiagonalDifference {
 
         return Math.abs(sum_left - sum_right);
     }
-
 }
 
 
