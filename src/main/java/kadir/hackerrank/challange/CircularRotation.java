@@ -3,7 +3,6 @@ package kadir.hackerrank.challange;
 import java.util.List;
 
 public class CircularRotation {
-
     public static List<Integer> circularArrayRotation(List<Integer> a, int k, List<Integer> queries) {
         // Write your code here
         int position;
@@ -16,7 +15,6 @@ public class CircularRotation {
             queries.set(count, a.get(position));
             count++;
         }
-
         return queries;
     }
 }
