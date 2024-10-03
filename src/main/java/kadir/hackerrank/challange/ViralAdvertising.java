@@ -1,6 +1,6 @@
 package kadir.hackerrank.challange;
 
-public class ViralAdvertising  {
+public class ViralAdvertising {
     /*
      * Complete the 'viralAdvertising' function below.
      *
