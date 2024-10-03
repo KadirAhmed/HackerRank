@@ -1,11 +1,20 @@
 package kadir.hackerrank.challange;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+
 
 public class Encryption {
+
+    /*
+     * Complete the 'encryption' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts STRING s as parameter.
+     */
+
     public static String encryption(String s) {
-    // Write your code here
+        // Write your code here
+
         List strings = new ArrayList<String>();
         int row = (int) Math.sqrt(s.length());
         int col = row + 1;
@@ -49,6 +58,6 @@ public class Encryption {
             message += " ";
             encyptedMsg += message;
         }
-     return encyptedMsg;
+        return encyptedMsg;
     }
 }
