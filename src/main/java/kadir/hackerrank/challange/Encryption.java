@@ -6,7 +6,6 @@ import java.util.List;
 public class Encryption {
     public static String encryption(String s) {
     // Write your code here
-    
         List strings = new ArrayList<String>();
         int row = (int) Math.sqrt(s.length());
         int col = row + 1;
